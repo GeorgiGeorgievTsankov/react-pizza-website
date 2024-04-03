@@ -1,7 +1,4 @@
 import React from 'react';
-import {ButtonComponent} from '../../components/Button/ButtonComponent';
-
-
 
 export const HomeView = () => {
 
