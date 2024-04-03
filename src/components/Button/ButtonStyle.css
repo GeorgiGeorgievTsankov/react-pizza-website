@@ -1,0 +1,20 @@
+.custom-button {
+    /* Стандартни стилове за бутона */
+    width: 100px;
+    height: 40px;
+    font-size: 24px;
+    color: black;
+  }
+  
+  .button-red {
+    /* Стилове за бутона с червен цвят */
+    background-color: red;
+  }
+  
+  .button-blue {
+    /* Стилове за бутона с син цвят */
+   
+    background-color: aqua;
+    
+  }
+  
