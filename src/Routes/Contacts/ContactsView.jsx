@@ -1,7 +1,37 @@
-import React from 'react'
+import React from "react";
+import PizzaLeft from "../../components/Assets/pizzaLeft.jpg";
+import "./ContactsStyle.css";
+import { ButtonComponent } from "../../components/Button/ButtonComponent";
 
-export const ContactsView = () => {
+
+export function ContactsView() {
   return (
-    <div><h1>ContactsView</h1></div>
-  )
+    <div className="contact">
+      <div
+        className="leftSide"
+        style={{ backgroundImage: `url(${PizzaLeft})` }}
+      ></div>
+      <div className="rightSide">
+        <h1> Contact Us</h1>
+
+        <form id="contact-form" method="POST">
+          <label htmlFor="name">Full Name</label>
+          <input name="name" placeholder="Enter full name..." type="text" />
+          <label htmlFor="email">Email</label>
+          <input name="email" placeholder="Enter email..." type="email" />
+          <label htmlFor="message">Message</label>
+          <textarea
+            rows="6"
+            placeholder="Enter message..."
+            name="message"
+            required
+          ></textarea>
+          {/* <button type="submit"> Send Message</button> */}
+          <ButtonComponent className="button-blue">Click</ButtonComponent>
+        </form>
+      </div>
+    </div>
+  );
 }
+
+
