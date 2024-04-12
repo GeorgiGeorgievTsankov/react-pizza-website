@@ -1,9 +1,9 @@
-import Pepperoni from "../assets/pepperoni.jpg";
-import Margherita from "../assets/margherita.jpg";
-import PedroTechSpecial from "../Assets/pedrotechspecial.jpg";
-import Vegan from "../assets/vegan.jpg";
-import Pineapple from "../assets/pineapple.jpg";
-import Expensive from "../assets/expensive.jpg";
+import Pepperoni from "../../../src/components/Assets/pepperoni.jpg";
+import Margherita from "../../../src/components/Assets/margherita.jpg";
+import PedroTechSpecial from "../../../src/components/Assets/pedrotechspecial.jpg";
+import Vegan from "../../../src/components/Assets/vegan.jpg";
+import Pineapple from "../../../src/components/Assets/pineapple.jpg";
+import Expensive from "../../../src/components/Assets/expensive.jpg";
 
 export const MenuList = [
   {
@@ -17,9 +17,9 @@ export const MenuList = [
     price: 11.99,
   },
   {
-    name: "PedroTech Special Pizza",
+    name: "Special Pizza",
     image: PedroTechSpecial,
-    price: 256.53,
+    price: 16.53,
   },
   {
     name: "Vegan Pizza",
@@ -29,11 +29,11 @@ export const MenuList = [
   {
     name: "Pineapple Pizza",
     image: Pineapple,
-    price: 4.99,
+    price: 14.99,
   },
   {
     name: "Very Expensive Pizza",
     image: Expensive,
-    price: 1997.99,
+    price: 17.99,
   },
 ];
