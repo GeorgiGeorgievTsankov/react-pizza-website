@@ -1,20 +1,57 @@
 .custom-button {
     /* Стандартни стилове за бутона */
-    width: 100px;
-    height: 40px;
-    font-size: 24px;
+    /* min-width: 165px;
+    width: auto; */
+    width: 200px;
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    background-color: rgb(14, 9, 9);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  
+ 
+
+
+.custom-button:hover {
+    background-color: white;
     color: black;
-  }
-  
-  .button-red {
-    /* Стилове за бутона с червен цвят */
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.button-blue {
+    background-color: #01060e;
+    color: white;
+
+}
+
+.button-blue:hover {
+    background-color: #f1f2f5;
+    border: 1px black solid;
+}
+
+.button-red {
     background-color: red;
-  }
-  
-  .button-blue {
-    /* Стилове за бутона с син цвят */
-   
-    background-color: aqua;
-    
-  }
-  
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+
+.button-red:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    text-decoration: none;
+}

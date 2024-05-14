@@ -14,12 +14,12 @@ export function NavbarComponent() {
     return (
         <div className="navbar">
             <div className="leftSide" id={openLinks ? "open" : "close"}>       
-                <Link to="/"> <img src={Logo} alt="logo"/> </Link>
+                <Link to="/"> <img src={Logo} /> </Link>
                 <div className="hiddenLinks">
-                    <Link to="/"> Home </Link>
-                    <Link to="/menu"> Menu </Link>
-                    <Link to="/about"> About </Link>
-                    <Link to="/contact"> Contact </Link>
+                    <Link onClick={toggleNavbar} to="/"> Home </Link>
+                    <Link onClick={toggleNavbar} to="/menu"> Menu </Link>
+                    <Link onClick={toggleNavbar} to="/about"> About </Link>
+                    <Link onClick={toggleNavbar} to="/contact"> Contact </Link>
                 </div>
             </div>
             <div className="rightSide">

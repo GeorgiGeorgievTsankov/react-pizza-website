@@ -1,4 +1,3 @@
-
 import React from "react";
 import MultiplePizzas from "../../components/Assets/multiplePizzas.jpeg";
 import './AboutStyle.css'
@@ -31,3 +30,5 @@ export function AboutView() {
     </div>
   );
 }
+
+ 
