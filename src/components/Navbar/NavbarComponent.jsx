@@ -14,7 +14,7 @@ export function NavbarComponent() {
     return (
         <div className="navbar">
             <div className="leftSide" id={openLinks ? "open" : "close"}>       
-                <Link to="/"> <img src={Logo} /> </Link>
+                <Link to="/"> <img src={Logo} alt="pizza"/> </Link>
                 <div className="hiddenLinks">
                     <Link onClick={toggleNavbar} to="/"> Home </Link>
                     <Link onClick={toggleNavbar} to="/menu"> Menu </Link>
